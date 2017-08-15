@@ -1,21 +1,9 @@
 html {background: black}
 
 .container {
-width: 100%;
+width: 70%;
 font-family: 'Great Vibes';
-/*font-weight: bold;*/
  }
-
-.heightDouble {height: 680px;
-	border: 20px solid white;
-	background: #134359;}
-
-.heightNormal {
-
-	height: 340px;
-	border: 20px solid white;
-	background: #134359;
-}
 
 .container h2 {
 	margin-top: 5%;
@@ -26,4 +14,15 @@ font-family: 'Great Vibes';
 .container p {
 	font-size: 5em;
 	margin-top: 2px;
+}
+
+.col {
+height: 340px;
+background-color: #124359;
+border: 5px solid #fff;
+justify-content: center;
+}
+
+.heightDouble {
+	height: 680px;
 }
