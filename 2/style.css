@@ -9,7 +9,6 @@
   		color: white;
 }
 
-
 .container {
 		width: 70%;
 		padding: 4px;
@@ -17,8 +16,7 @@
 
 .height_nav {
 		height: 800px;
-		line-height: 800px;
-		
+		line-height: 800px;		
 }
 
 .heigth_logo {
@@ -26,20 +24,20 @@
 		line-height: 60px;
 	}
 
-.heigth_logo1 {
-		height: 15px;
-}
+.heigth_logo li {
+		width: 14%;
+		background: grey;
 
-.heigth_logo2 {
-		height: 30px;
-		line-height: 30px;
 }
-
+.heigth_logo ul {
+	justify-content: space-between;	
+			align-items: center;
+			line-height: 30px;
+}
 
 .height_nameofpage {
 		height: 90px;
 		line-height: 90px;
-			
 }
 
 .height_nameofpage ul {
@@ -51,29 +49,17 @@ justify-content: flex-end;
 		font-size: 20px;
 		font-weight: bold;	
 }
-
+	
+.height_nameofpage li {
+		width: 9%;}
 
 ul {
 		width: 100%;
 		height: auto;
 		display: inline-flex;
-		
+		/*border: 1px solid red;	*/
 }
 
-.heigth_logo li {
-		width: 14%;
-		background: grey;
-
-}
-.heigth_logo2 ul {
-	justify-content: space-between;	
-
-}
-	
-.height_nameofpage li {
-		width: 9%;
-
-}
 
 article {
 		text-align: left;
