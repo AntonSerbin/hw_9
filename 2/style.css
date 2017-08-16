@@ -39,42 +39,40 @@
 .height_nameofpage {
 		height: 90px;
 		line-height: 90px;
+			
+}
 
-					}
+.height_nameofpage ul {
+flex-direction:row;
+justify-content: flex-end;
+}
 
 .height_nameofpage h1 {
 		font-size: 20px;
 		font-weight: bold;	
 }
 
-li {
-		display: inline-block;
-		display: block;
-		float: left;
-}
 
 ul {
 		width: 100%;
+		height: auto;
+		display: inline-flex;
+		
 }
 
 .heigth_logo li {
-		width: 14.25%;
-		border-right: 2px solid white;
-		height: 30px;
-		line-height: 30px;	
+		width: 14%;
 		background: grey;
+
 }
+.heigth_logo2 ul {
+	justify-content: space-between;	
 
-.heigth_logo li:last-child {
-		float: right}
-
-.height_nameofpage ul{
-		float: right;
 }
-
+	
 .height_nameofpage li {
 		width: 9%;
-		float: right;
+
 }
 
 article {
